@@ -27,7 +27,11 @@ You are provided with daily historical sales data. The task is to forecast the t
 - item_category_name - name of item category
 # mid_term_hw methods
 
-- First of all , use the experience of *Two Sigma: Using News to Predict Stock Movements* , the most important feature in price prediction competition is time lag
-- Try a little about public kernel <<Feature engineering, xgboost>> , it seems very hard to improve
+- First of all , use the experience of [*Two Sigma: Using News to Predict Stock Movements*](https://www.kaggle.com/c/two-sigma-financial-news) , the most important feature in price prediction competition is time lag
+- [Stage 0](https://www.kaggle.com/dhimananubhav/feature-engineering-xgboost)Try a little about public kernel <<Feature engineering, xgboost>> , it seems very hard to improve.
+- [Stage 1](https://gist.github.com/hzk123/33ac902233e3c36fa96d9da3a07ca065) Try to improve this method, use much more time lag data and ensemble many methods , but it seems Xgboost is best for this work, or for private leaderboard.
+- [Stage 2](https://nbviewer.jupyter.org/gist/hzk123/b8e816a8db27e28e86cbc1fe59032220) , find a clean kernel , and try to improve and modify it , and get 0.885 in pb
+- [Stage 3](https://nbviewer.jupyter.org/gist/hzk123/ab6b350b29b5087040d7f6771e3102fc), simple Ensemble , try to combine these methods , but result not good.
 
 
+# Get
