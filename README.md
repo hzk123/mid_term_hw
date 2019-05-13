@@ -25,4 +25,9 @@ You are provided with daily historical sales data. The task is to forecast the t
 - item_name - name of item
 - shop_name - name of shop
 - item_category_name - name of item category
-# mid_term_hw
+# mid_term_hw methods
+
+- First of all , use the experience of *Two Sigma: Using News to Predict Stock Movements* , the most important feature in price prediction competition is time lag
+- Try a little about public kernel <<Feature engineering, xgboost>> , it seems very hard to improve
+
+
